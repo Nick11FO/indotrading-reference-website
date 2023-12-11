@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@1&family=DM+Sans:opsz@9..40&family=DM+Serif+Display:ital@1&family=DM+Serif+Text&family=Montserrat:wght@500&family=Quicksand&family=Raleway:wght@100&display=swap');
+
+:root{
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --main-font: montserrat; 
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /*========== Color ===========*/
+    --main-color: #DD1F26;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+}
+
+/*========== CAROUSEL CONTAINER ==========*/
+.carousel__container{
+  width: 100%;
+  height: 500px;
+}
+
+/*========== TABS CONTAINER ==========*/
+.tabs__container{
+  display: flex;
+  align-items: center;
+  margin-left: .3rem;
+  border-radius: 10px;
+  margin-bottom: .3rem;
+}
+
+.tabs__container h1{
+  padding: 1rem 12.5rem;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-bold);
+}
+
+.activeTabs{
+  border-bottom: 4px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.not-activeTabs{
+  border-bottom: 4px solid rgb(189, 189, 189);
+}
+
+.not-activeTabs:hover{
+  border-bottom: 4px solid var(--main-color);
+  color: var(--main-color);
+  transition: 0.2s;
+}
+
+/*========== MAIN CONTENT ==========*/
+.main__content{
+  margin: 1rem 2rem;
+}
+
+.main__content h1{
+  font-size: var(--h2-font-size);
+}
+
+.main__content a{
+  text-decoration: none;
+  color: black;
+}
+
+.main__content p{
+  font-size: var(--smaller-font-size);
+}
+
+.main__content h3{
+  font-size: var(--normal-font-size);
+  color: rgb(255, 67, 67);
+}
+
+.main__content img{
+  width: 170px;
+  height: 170px;
+}
+
+/*========== SMARTPHONE SECTION ==========*/
+.smartphone__section h1{
+  width: 100%;
+  border-bottom: 2px solid rgb(204, 204, 204);
+  padding-bottom: 1rem;
+  
+}
+
+.item__container{
+  display: flex;
+  gap:30px;
+  margin: 2rem 0rem;
+}
+
+.item:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item__name{
+  margin-bottom: 1.5rem;
+}
+
+.item__cv{
+  color: #9e9ea0;
+}
+
+.item__tax{
+  color: #0303b1;
+}
+
+.item__loc{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #9e9ea0;
+}
+
+.see__all-smartphone{
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+/*========== NEWS SECTION ==========*/
+.news__section{
+  margin: 1rem 2rem;
+}
+
+.news__section h1{
+  width: 100%;
+  border-bottom: 2px solid rgb(204, 204, 204);
+  padding-bottom: 1rem;
+  font-size: var(--h2-font-size);
+}
+
+.news__section h3{
+  margin: 1rem 2rem;
+  font-size: var(--normal-font-size);
+}
+
+.news__section p{
+  margin: 1rem 2rem;
+  font-size: var(--small-font-size);
+}
+
+.each__news{
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.news__other{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: .5rem .5rem;
+}
+
+.news__other:hover{
+  background-color: #e6e6e6;
+  transition: 0.4s;
+}
+
+/*========== FOOTER SECTION ==========*/
+.footer__section{
+  background-color: #404042;
+  height: 900px;
+  padding-top: 0.1rem;
+  padding-bottom: 3rem;
+}
+
+/*========== REPONSIVE ==========*/
+@media screen and (max-width: 575px){
+
+  /*========== CAROUSEL CONTAINER ==========*/
+  .carousel__container{
+    height: 200px;
+  }
+
+  /*========== TABS CONTAINER ==========*/
+  .tabs__container h1{
+    padding: 1rem 3.6rem;
+    font-size: var(--small-font-size);
+
+  }
+
+  /*========== MAIN CONTENT ==========*/
+  .main__content h1{
+    font-size: var(--normal-font-size);
+  }
+  
+  .main__content p{
+    font-size: var(--smaller-font-size);
+  }
+
+  .item__container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item{
+    width: 200px;
+  }
+
+  /*========== NEWS SECTION ==========*/
+  .news__section h1{
+    font-size: var(--normal-font-size);
+  }
+  
+  .news__section h3{
+    margin: 1rem 2rem;
+    font-size: var(--small-font-size);
+  }
+  
+  .news__section p{
+    margin: 1rem 2rem;
+    font-size: var(--smaller-font-size);
+  }
+
+  .each__news{
+    flex-direction: column;
+  }
+
+  /*========== FOOTER SECTION ==========*/
+  .footer__section{
+    height: 1450px;
+}
+}
+
+
+

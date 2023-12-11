@@ -1,0 +1,6 @@
+Bahasa yang digunakan ==> REACT.JS
+
+Notes:
+1. Buka folder vs code dari folder utama (MAINFOLDER)
+2. Di terminal cd website-indotrading
+3. Baru jalankan npm start

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1, 
+        "img": "./smartphone-img/iphone-many.png",
+        "name": "Handphone/Smarphone Apple Iphone 14 Pro Max 256GB",
+        "price": "28.748.850",
+        "cv": "CV. Multi Solution Marketing", 
+        "pajak": "PKP",
+        "loc": "Banten"
+    },
+    {
+        "id": 2, 
+        "img": "./smartphone-img/ipad.png",
+        "name": "Tablet Smartphone Apple Ipad Mini 6 Wi-Fi + Cellular 256GB",
+        "price": "18.053.850",
+        "cv": "CV. Multi Solution Marketing", 
+        "pajak": "PKP",
+        "loc": "Banten"
+    },
+    {
+        "id": 3, 
+        "img": "./smartphone-img/ipad.png",
+        "name": "Tablet Smartphone Apple Ipad Mini 6 Wi-Fi + Cellular 64GB",
+        "price": "14.488.850",
+        "cv": "CV. Multi Solution Marketing", 
+        "pajak": "PKP",
+        "loc": "Banten"
+    },
+    {
+        "id": 4, 
+        "img": "./smartphone-img/iphone.png",
+        "name": "Handphone/Smarphone Apple Iphone 14 Pro Max 128GB",
+        "price": "25.298.850",
+        "cv": "CV. Multi Solution Marketing", 
+        "pajak": "PKP",
+        "loc": "Banten"
+    },
+    {
+        "id": 5, 
+        "img": "./smartphone-img/ipad.png",
+        "name": "Tablet Smartphone Apple Ipad Mini 6 Wi-Fi 64GB",
+        "price": "11.038.850",
+        "cv": "CV. Multi Solution Marketing", 
+        "pajak": "PKP",
+        "loc": "Banten"
+    },
+    {
+        "id": 6, 
+        "img": "./smartphone-img/samsung.png",
+        "name": "Handphone/Smarphone Samsung A24 8/128GB",
+        "price": "4.548.700",
+        "cv": "CV. Multi Solution Marketing", 
+        "pajak": "PKP",
+        "loc": "Banten"
+    }
+]

@@ -1,0 +1,130 @@
+.mobileNavbar__container{
+    margin: 1rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobNavbar__logo-container img{
+    width: 200px;
+    height: 200px;
+}
+
+.mobNavbar__logo-container{
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mobileNavbar__menu{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+/* .sideBar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    display: none;
+} */
+
+.sideBar__container{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    left: -560px;
+    transition: transform .7s ease-in-out;
+    z-index: 2;
+    
+}
+
+.showYourSelfsideBar{
+    display: flex;
+}
+
+.showYourSelfcontainer{
+    transform: translateX(560px);
+}
+
+.sideBar__top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.sideBar__main{
+    margin: 0 1.8rem;
+    border-bottom: 2px solid rgb(235, 235, 235);
+    padding-bottom: 2rem;
+}
+
+
+.sideBar__logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 190px;
+    height: 60px;
+    /* border: 1px solid black; */
+    margin-top: .5rem;
+}
+
+.sideBar__logo-container img{
+    width: 200px;
+    height: 200px;
+}
+
+.enter{
+    display: flex;
+    gap: 10px;
+    border-top: 2px solid rgb(235, 235, 235);
+    border-bottom: 2px solid rgb(235, 235, 235);
+    padding: 1rem 0;
+}
+
+.close{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.sideBar__search{
+    margin: 1rem 0;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+
+.sideBarSearch{
+    width: 96%;
+    height: 38px;
+    border: 0px;
+    padding: 0 0.5rem;
+}
+
+.sideBarSearch:focus{
+    outline: none;
+}
+
+.sideBar__search-icon{
+    border-radius: 6px;
+    background-color: var(--main-color);
+    padding: .5rem;
+    text-align: center;
+}
+
+.sideBar__search-icon:hover{
+    background-color: rgb(170, 8, 8);
+    transition: .5s;
+}
+
